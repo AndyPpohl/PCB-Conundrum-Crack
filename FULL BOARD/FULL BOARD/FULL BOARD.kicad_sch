@@ -13359,10 +13359,6 @@
 		(uuid "69622200-7eb4-4d80-8ca6-2915e1cba10b")
 	)
 	(no_connect
-		(at 162.56 194.31)
-		(uuid "6ec1c8a4-b99b-4ba8-857a-18d2b2de1ac8")
-	)
-	(no_connect
 		(at 162.56 140.97)
 		(uuid "76c70481-c46b-4a36-bb7b-532f67114e41")
 	)
@@ -13401,6 +13397,10 @@
 	(no_connect
 		(at 30.48 299.72)
 		(uuid "8c3be707-27c1-42fb-867c-36d62f2a7bd2")
+	)
+	(no_connect
+		(at 205.74 232.41)
+		(uuid "8ff57a37-f7cf-4721-b9d8-f40923d609c9")
 	)
 	(no_connect
 		(at 283.21 351.79)
@@ -13820,6 +13820,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 194.31) (xy 162.56 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16b6f6f8-6636-4b59-90cb-83c9fe72451e")
+	)
+	(wire
+		(pts
+			(xy 306.07 384.81) (xy 378.46 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17053725-61ae-4503-b94f-7fcc1b0eb3a0")
+	)
+	(wire
+		(pts
 			(xy 57.15 450.85) (xy 55.88 450.85)
 		)
 		(stroke
@@ -13867,16 +13887,6 @@
 			(type default)
 		)
 		(uuid "19ca30c6-5a3b-4719-9967-9df671ce5370")
-	)
-	(wire
-		(pts
-			(xy 208.28 222.25) (xy 209.55 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a09311e-5a1a-4632-8b1c-378d0d178716")
 	)
 	(wire
 		(pts
@@ -14230,16 +14240,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 232.41) (xy 208.28 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ca3c9d7-811e-4f42-9b3d-7ec918caf019")
-	)
-	(wire
-		(pts
 			(xy 158.75 156.21) (xy 162.56 156.21)
 		)
 		(stroke
@@ -14347,6 +14347,16 @@
 			(type dash)
 		)
 		(uuid "46d8ad95-024a-4d01-9fe6-e468ceaa80dc")
+	)
+	(wire
+		(pts
+			(xy 378.46 361.95) (xy 378.46 384.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4973edc3-661f-4109-9329-d7be5c0b4c14")
 	)
 	(wire
 		(pts
@@ -15430,16 +15440,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 232.41) (xy 208.28 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8223be8-57ff-4b78-bf02-2cd64cb8de6f")
-	)
-	(wire
-		(pts
 			(xy 64.77 215.9) (xy 80.01 215.9)
 		)
 		(stroke
@@ -15787,6 +15787,16 @@
 			(type dash)
 		)
 		(uuid "c7d067c1-2a8e-460b-a545-5ffca503a91f")
+	)
+	(wire
+		(pts
+			(xy 372.11 361.95) (xy 378.46 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c5c505-80d7-4039-b850-78d68a945d46")
 	)
 	(wire
 		(pts
@@ -17518,7 +17528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 60.96 370.84 0)
 			(effects
 				(font
@@ -18155,7 +18165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 45.72 341.63 0)
 			(effects
 				(font
@@ -18229,7 +18239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 58.42 341.63 0)
 			(effects
 				(font
@@ -19081,7 +19091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CONN_61201021621_WRE"
+		(property "Footprint" "Debugger:CONN_61201021621_WRE"
 			(at 30.48 281.94 0)
 			(effects
 				(font
@@ -19310,7 +19320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 33.02 364.49 0)
 			(effects
 				(font
@@ -19593,7 +19603,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:XTAL_ABLS7M2-16.000MHZ-D-2Y-T"
+		(property "Footprint" "crystal osc:XTAL_ABLS7M2_ABR"
 			(at 53.34 215.9 0)
 			(effects
 				(font
@@ -19702,7 +19712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 45.72 430.53 0)
 			(effects
 				(font
@@ -19810,6 +19820,75 @@
 			(project "FULL BOARD"
 				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 143.51 194.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3738aa62-33fd-46e9-bed9-7b89f315ed8a")
+		(property "Reference" "R13"
+			(at 144.6784 196.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 142.367 196.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.256 195.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F3001T5E_C17661.pdf"
+			(at 143.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45b9d278-503b-46b7-9d63-31df10678440")
+		)
+		(pin "2"
+			(uuid "078bef98-6b9c-41cd-a7a0-7a4fa1d87509")
+		)
+		(instances
+			(project "FULL BOARD"
+				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -19983,7 +20062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCad:SOP65P810X120-33N"
+		(property "Footprint" "Audio Amp:DAP0032A_M"
 			(at 325.12 428.93 0)
 			(effects
 				(font
@@ -20265,7 +20344,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 71.12 364.49 0)
 			(effects
 				(font
@@ -20415,7 +20494,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 48.26 370.84 0)
 			(effects
 				(font
@@ -20509,7 +20588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 35.56 370.84 0)
 			(effects
 				(font
@@ -20733,7 +20812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 45.72 386.08 0)
 			(effects
 				(font
@@ -20907,6 +20986,74 @@
 			(project "FULL BOARD"
 				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 135.89 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5242926d-e2d6-408d-b17d-2f8069ce5bc1")
+		(property "Reference" "D25"
+			(at 134.3025 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 134.3025 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 135.89 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d10f5a-11c9-4a68-9e0d-80975e69a87e")
+		)
+		(pin "2"
+			(uuid "109b9fab-584c-45c6-9156-8b60e5106536")
+		)
+		(instances
+			(project "FULL BOARD"
+				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -21627,7 +21774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 58.42 386.08 0)
 			(effects
 				(font
@@ -21742,75 +21889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 213.36 222.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fa67af1-8d72-435b-a70b-da5766d99baa")
-		(property "Reference" "R12"
-			(at 212.1916 220.5228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 214.503 220.5228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 213.614 221.234 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F3001T5E_C17661.pdf"
-			(at 213.36 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "103f2e35-629e-4b79-b3bb-6d3ec0e29da5")
-		)
-		(pin "2"
-			(uuid "f6d83269-57b5-4c71-ad4c-cfc85704a146")
-		)
-		(instances
-			(project "FULL BOARD"
-				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 54.61 113.03 0)
 		(unit 1)
@@ -21911,7 +21989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:BEADC1005X55N"
+		(property "Footprint" "Ferrite Bead:BEADC1005X55N"
 			(at 55.88 246.38 0)
 			(effects
 				(font
@@ -22119,7 +22197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 71.12 408.94 0)
 			(effects
 				(font
@@ -22415,7 +22493,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 71.12 438.15 0)
 			(effects
 				(font
@@ -22509,7 +22587,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 45.72 438.15 0)
 			(effects
 				(font
@@ -22603,7 +22681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 73.66 415.29 0)
 			(effects
 				(font
@@ -22697,7 +22775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 60.96 392.43 0)
 			(effects
 				(font
@@ -22992,7 +23070,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 73.66 347.98 0)
 			(effects
 				(font
@@ -23084,7 +23162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CON_5019514000"
+		(property "Footprint" "Ribbon Connector:CON_5019514000"
 			(at 341.63 207.01 0)
 			(effects
 				(font
@@ -23270,7 +23348,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 48.26 415.29 0)
 			(effects
 				(font
@@ -23497,7 +23575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "audiojack:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "Audio Jack:CONN2_B2B-PH-K-S_JST"
 			(at 383.54 364.49 0)
 			(effects
 				(font
@@ -23536,74 +23614,6 @@
 			(project "FULL BOARD"
 				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 220.98 222.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "818bab9e-37bb-44e9-b935-9d24cecb4fcf")
-		(property "Reference" "D22"
-			(at 222.5675 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 222.5675 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 220.98 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 220.98 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dabae881-56d4-4637-a1c5-a3b1777fd223")
-		)
-		(pin "2"
-			(uuid "f8cafca3-523a-42f6-a87e-bc80be9f608b")
-		)
-		(instances
-			(project "FULL BOARD"
-				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
-					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -23710,7 +23720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 71.12 430.53 0)
 			(effects
 				(font
@@ -23786,7 +23796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 73.66 370.84 0)
 			(effects
 				(font
@@ -23945,7 +23955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 71.12 341.63 0)
 			(effects
 				(font
@@ -24090,7 +24100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 73.66 392.43 0)
 			(effects
 				(font
@@ -24431,73 +24441,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 224.79 222.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9309f890-9af4-40d8-bf6b-5bf80044b37f")
-		(property "Reference" "#PWR050"
-			(at 231.14 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 228.6 222.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c228cb27-16d2-403d-aa92-bb297f2df5d6")
-		)
-		(instances
-			(project "FULL BOARD"
-				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LD1117S33TR_SOT223_1")
 		(lib_id "Regulator_Linear:LD1117S33TR_SOT223")
 		(at 289.56 254 0)
@@ -24597,7 +24540,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 35.56 347.98 0)
 			(effects
 				(font
@@ -24846,7 +24789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 60.96 415.29 0)
 			(effects
 				(font
@@ -25215,7 +25158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 58.42 408.94 0)
 			(effects
 				(font
@@ -25767,7 +25710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 35.56 392.43 0)
 			(effects
 				(font
@@ -25993,7 +25936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 45.72 364.49 0)
 			(effects
 				(font
@@ -26136,7 +26079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 35.56 415.29 0)
 			(effects
 				(font
@@ -26509,7 +26452,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 60.96 347.98 0)
 			(effects
 				(font
@@ -26803,7 +26746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "audiojack:CONN2_B2B-PH-K-S_JST"
+		(property "Footprint" "Audio Jack:CONN2_B2B-PH-K-S_JST"
 			(at 383.54 339.09 0)
 			(effects
 				(font
@@ -26941,7 +26884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 58.42 438.15 0)
 			(effects
 				(font
@@ -27033,7 +26976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 33.02 341.63 0)
 			(effects
 				(font
@@ -27323,7 +27266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 58.42 430.53 0)
 			(effects
 				(font
@@ -27680,7 +27623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 48.26 392.43 0)
 			(effects
 				(font
@@ -27842,7 +27785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 45.72 408.94 0)
 			(effects
 				(font
@@ -27916,7 +27859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PJ-036AH-SMT-TR:CUI_PJ-036AH-SMT-TR"
+		(property "Footprint" "power jack:CONN3_PJ-036AH_CUD"
 			(at 287.02 110.49 0)
 			(effects
 				(font
@@ -28268,7 +28211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 58.42 364.49 0)
 			(effects
 				(font
@@ -28342,7 +28285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 33.02 386.08 0)
 			(effects
 				(font
@@ -28416,7 +28359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 71.12 386.08 0)
 			(effects
 				(font
@@ -28556,7 +28499,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 33.02 430.53 0)
 			(effects
 				(font
@@ -29027,6 +28970,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 194.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f912fd33-8ac3-4126-b49e-ff338fcb2405")
+		(property "Reference" "#PWR051"
+			(at 125.73 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 194.3101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7e0cb9c-2980-4f59-b129-37fd2e2bb7ab")
+		)
+		(instances
+			(project "FULL BOARD"
+				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 33.02 438.15 90)
 		(unit 1)
@@ -29054,7 +29064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 33.02 438.15 0)
 			(effects
 				(font
@@ -29221,7 +29231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
 			(at 33.02 408.94 0)
 			(effects
 				(font
@@ -29297,7 +29307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Keyboard footprint:Diode_DO-35"
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 48.26 347.98 0)
 			(effects
 				(font
