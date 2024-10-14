@@ -1,21 +1,170 @@
-
-(footprint BEADC1005X55N (layer F.Cu) (tedit 670427A4)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.3 -0.88 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value BEADC1005X55N (at 2.3 0.88 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.432 0.0) (size 0.54 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.432 0.0) (size 0.54 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.53 0.28) (end -0.53 0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.53 -0.28) (end -0.53 -0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.53 0.28) (end 0.53 -0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.53 0.28) (end -0.53 -0.28) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.95 0.55) (end 0.95 0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.95 -0.55) (end 0.95 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.95 0.55) (end -0.95 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.95 0.55) (end 0.95 -0.55) (layer F.CrtYd) (width 0.05))
+(footprint "BEADC1005X55N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -0.88 0)
+		(layer "F.SilkS")
+		(uuid "c239acc7-1865-4f2b-85ac-130cb9805ce2")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "BEADC1005X55N"
+		(at 2.3 0.88 0)
+		(layer "F.Fab")
+		(uuid "c34e589d-65f6-4207-bce4-45803971771a")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "205abff7-b894-47ba-aafc-fdbf8388e32f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5572485e-8a34-4ff7-b02c-d9738020524b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5443d8d-bc98-4832-a816-a7a8d38bb992")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8180ae55-9ab8-4cf4-a7eb-d75ba2ea575d")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end -0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "788abecf-7c97-4fe0-86d4-3cd174e68c99")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end 0.95 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5795636c-9357-4c3d-aa7e-13e129eeb55c")
+	)
+	(fp_line
+		(start 0.95 0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46bafec9-b00a-4d98-a7fc-03f51ca90418")
+	)
+	(fp_line
+		(start -0.53 0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "216f4d58-6262-4139-8066-e1d086037f79")
+	)
+	(fp_line
+		(start 0.53 -0.28)
+		(end -0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d076597f-5e53-4140-a71e-ebfc8cbab391")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end -0.53 0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e81bebe5-1c22-4fb3-8f9f-b5ff799c303b")
+	)
+	(fp_line
+		(start 0.53 0.28)
+		(end 0.53 -0.28)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7df99080-5fd8-4c95-b67b-272fe92b025e")
+	)
+	(pad "1" smd rect
+		(at -0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "835c2d22-e5ff-4738-b542-19673f36aadd")
+	)
+	(pad "2" smd rect
+		(at 0.432 0)
+		(size 0.54 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "bd763f73-c395-4be9-ae0c-48dc296d88f5")
+	)
+	(model "Z:/Downloads/school/477/KiCAD/PCB-Conundrum-Crack/Footprints/Ferrite Bead/BLM15GA750SZ1D.step"
+		(offset
+			(xyz 0 -0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
