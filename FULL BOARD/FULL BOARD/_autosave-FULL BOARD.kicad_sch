@@ -13407,10 +13407,6 @@
 		(uuid "076f3ae3-eee4-4909-aeb5-212ef4a8d4a1")
 	)
 	(no_connect
-		(at 138.43 158.75)
-		(uuid "07be9a73-0bc4-4b30-881d-c5851b0c976f")
-	)
-	(no_connect
 		(at 128.27 196.85)
 		(uuid "097ad90f-3b18-46ab-96e5-13a9fffcc91f")
 	)
@@ -13471,6 +13467,10 @@
 		(uuid "243d7528-7181-41f1-8998-18c4296d1766")
 	)
 	(no_connect
+		(at 138.43 130.81)
+		(uuid "286139d0-095c-42da-90c8-d74c58f2a7a4")
+	)
+	(no_connect
 		(at 138.43 173.99)
 		(uuid "28d33324-3b90-446b-b454-901ba863d7b0")
 	)
@@ -13505,10 +13505,6 @@
 	(no_connect
 		(at 256.54 318.77)
 		(uuid "3615abd2-12c0-4441-942e-d754bc113df1")
-	)
-	(no_connect
-		(at 304.8 190.5)
-		(uuid "3617511f-f855-4e7f-850e-9a34d077f7ba")
 	)
 	(no_connect
 		(at 238.76 190.5)
@@ -13589,10 +13585,6 @@
 	(no_connect
 		(at 181.61 199.39)
 		(uuid "7edcf3ef-07c8-4fe2-b63f-a9ad8a4f5a49")
-	)
-	(no_connect
-		(at 138.43 130.81)
-		(uuid "84ba9854-0686-4c61-8ef5-c605318abbe2")
 	)
 	(no_connect
 		(at 138.43 250.19)
@@ -13833,6 +13825,16 @@
 			(type default)
 		)
 		(uuid "04d3bf62-f13d-4172-94d4-78e76a58b345")
+	)
+	(wire
+		(pts
+			(xy 129.54 158.75) (xy 138.43 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0526c386-73ac-499b-b524-e59efdd3b6b2")
 	)
 	(wire
 		(pts
@@ -15776,6 +15778,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 176.53) (xy 304.8 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4ed9cc-9e88-4bad-b60f-82480bc0dbd1")
+	)
+	(wire
+		(pts
 			(xy 128.27 201.93) (xy 138.43 201.93)
 		)
 		(stroke
@@ -17491,6 +17503,28 @@
 			)
 		)
 	)
+	(global_label "Wait"
+		(shape input)
+		(at 129.54 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "165572e7-459d-46ed-a459-5c48fba911c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.6239 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_CK"
 		(shape input)
 		(at 134.62 143.51 180)
@@ -17949,6 +17983,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Wait"
+		(shape input)
+		(at 304.8 176.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6403636-6032-47c3-ad43-a7483607c54a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 169.6139 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
