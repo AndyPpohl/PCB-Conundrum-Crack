@@ -6864,355 +6864,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Micro_SD_Card"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -16.51 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Micro_SD_Card"
-				(at 16.51 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 29.21 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Micro SD Card Socket"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector SD microsd"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "microSD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Micro_SD_Card_0_1"
-				(rectangle
-					(start -7.62 -9.525)
-					(end -5.08 -10.795)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -6.985)
-					(end -5.08 -8.255)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -4.445)
-					(end -5.08 -5.715)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 -1.905)
-					(end -5.08 -3.175)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 0.635)
-					(end -5.08 -0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 3.175)
-					(end -5.08 1.905)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 5.715)
-					(end -5.08 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -7.62 8.255)
-					(end -5.08 6.985)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
-						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "Micro_SD_Card_1_1"
-				(pin bidirectional line
-					(at -22.86 7.62 0)
-					(length 3.81)
-					(name "DAT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 5.08 0)
-					(length 3.81)
-					(name "DAT3/CD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 2.54 0)
-					(length 3.81)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 0 0)
-					(length 3.81)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -22.86 -2.54 0)
-					(length 3.81)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -22.86 -5.08 0)
-					(length 3.81)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -7.62 0)
-					(length 3.81)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -22.86 -10.16 0)
-					(length 3.81)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -15.24 180)
-					(length 3.81)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -11265,6 +10916,373 @@
 				)
 			)
 		)
+		(symbol "Second SD Card:MEM2080-00-128-00-A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 36.83 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MEM2080-00-128-00-A"
+				(at 36.83 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "MEM20800012800A"
+				(at 36.83 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://gct.co/files/drawings/mem2080.pdf?v=a9dd5643-7d1c-4e6b-bf46-1b82bcb8595f"
+				(at 36.83 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Memory Card Connectors Micro SD, Push Push, SMT, Card Entry Normal, 1.28 mm profile"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.48"
+				(at 36.83 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "640-MEM2080-0012800A"
+				(at 36.83 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/MEM2080-00-128-00-A?qs=vvQtp7zwQdPJXzpf1SnYug%3D%3D"
+				(at 36.83 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+				(at 36.83 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MEM2080-00-128-00-A"
+				(at 36.83 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MEM2080-00-128-00-A_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 35.56 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 0 180)
+					(length 5.08)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -12.7 180)
+					(length 5.08)
+					(name "LEVER_PIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "DSW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -15.24 180)
+					(length 5.08)
+					(name "SWITCH_PIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "DSW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -2.54 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -5.08 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -7.62 180)
+					(length 5.08)
+					(name "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 40.64 -10.16 180)
+					(length 5.08)
+					(name "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TAS5760LDAP:TAS5760LDAP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13435,12 +13453,12 @@
 		(uuid "120191cb-0f28-4cac-b0ca-8c853c4ff452")
 	)
 	(no_connect
-		(at 30.48 304.8)
-		(uuid "194870bf-2787-4d86-a1f3-8a3e3d2bb24c")
+		(at 322.58 152.4)
+		(uuid "17b597a0-52f8-47ef-9a9e-6640371a14ba")
 	)
 	(no_connect
-		(at 283.21 154.94)
-		(uuid "199a6374-c11b-4194-8bcd-853579be2fbf")
+		(at 30.48 304.8)
+		(uuid "194870bf-2787-4d86-a1f3-8a3e3d2bb24c")
 	)
 	(no_connect
 		(at 128.27 212.09)
@@ -13457,6 +13475,10 @@
 	(no_connect
 		(at 264.16 190.5)
 		(uuid "21e9d888-f4e2-48df-b88e-c3519a6a8b3a")
+	)
+	(no_connect
+		(at 322.58 144.78)
+		(uuid "22e03c7f-a311-4bb7-9093-7ad6db375031")
 	)
 	(no_connect
 		(at 128.27 199.39)
@@ -13527,8 +13549,12 @@
 		(uuid "40fb0834-0730-407f-9c69-06f85604a9ad")
 	)
 	(no_connect
-		(at 283.21 137.16)
+		(at 281.94 137.16)
 		(uuid "41c43a8f-c2f7-43a6-9e18-129c0b0f48da")
+	)
+	(no_connect
+		(at 322.58 139.7)
+		(uuid "45b1480b-d928-4612-841e-9e0e8bb18bc9")
 	)
 	(no_connect
 		(at 30.48 302.26)
@@ -13559,6 +13585,10 @@
 		(uuid "55046cdb-29db-4ba7-8206-acea3fa52bd0")
 	)
 	(no_connect
+		(at 322.58 137.16)
+		(uuid "57f5a840-37a4-480e-9c2f-81beb18d8d82")
+	)
+	(no_connect
 		(at 269.24 190.5)
 		(uuid "6420d1ee-a7bf-4a3a-968a-e514b0e6d34d")
 	)
@@ -13569,6 +13599,10 @@
 	(no_connect
 		(at 289.56 190.5)
 		(uuid "69622200-7eb4-4d80-8ca6-2915e1cba10b")
+	)
+	(no_connect
+		(at 322.58 149.86)
+		(uuid "7276e5f4-0f28-4c50-8159-7d286180016a")
 	)
 	(no_connect
 		(at 138.43 135.89)
@@ -13621,6 +13655,10 @@
 	(no_connect
 		(at 138.43 140.97)
 		(uuid "9bb0d11a-5855-4bcd-8ada-382e7892d1c6")
+	)
+	(no_connect
+		(at 322.58 147.32)
+		(uuid "9e017e55-339c-4fec-a1b9-6b94576cf1ef")
 	)
 	(no_connect
 		(at 181.61 163.83)
@@ -13711,6 +13749,10 @@
 		(uuid "d4d2f218-beb2-42c0-ac17-adab34cb21cd")
 	)
 	(no_connect
+		(at 322.58 142.24)
+		(uuid "d5bb5a44-09a1-47a9-b6c3-252b2e8deba4")
+	)
+	(no_connect
 		(at 292.1 190.5)
 		(uuid "d757843e-8665-45ff-9ba6-c9307b93a2c2")
 	)
@@ -13729,10 +13771,6 @@
 	(no_connect
 		(at 256.54 190.5)
 		(uuid "e435dbd1-9878-4d22-9fe0-0a70c6dc4106")
-	)
-	(no_connect
-		(at 326.39 160.02)
-		(uuid "eb53650c-8473-49e3-ac00-c27c3584c631")
 	)
 	(no_connect
 		(at 138.43 168.91)
@@ -15158,7 +15196,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 139.7) (xy 283.21 139.7)
+			(xy 274.32 139.7) (xy 281.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -15978,7 +16016,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 147.32) (xy 283.21 147.32)
+			(xy 274.32 147.32) (xy 281.94 147.32)
 		)
 		(stroke
 			(width 0)
@@ -16418,7 +16456,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 149.86) (xy 283.21 149.86)
+			(xy 264.16 149.86) (xy 281.94 149.86)
 		)
 		(stroke
 			(width 0)
@@ -16678,7 +16716,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 152.4) (xy 283.21 152.4)
+			(xy 274.32 152.4) (xy 281.94 152.4)
 		)
 		(stroke
 			(width 0)
@@ -16718,7 +16756,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 144.78) (xy 283.21 144.78)
+			(xy 254 144.78) (xy 281.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -17078,7 +17116,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 142.24) (xy 283.21 142.24)
+			(xy 274.32 142.24) (xy 281.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -24818,6 +24856,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Second SD Card:MEM2080-00-128-00-A")
+		(at 281.94 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "819ce7f4-1aea-453b-9ac3-fda829a18fde")
+		(property "Reference" "J2"
+			(at 302.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MEM2080-00-128-00-A"
+			(at 302.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MEM20800012800A"
+			(at 318.77 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/files/drawings/mem2080.pdf?v=a9dd5643-7d1c-4e6b-bf46-1b82bcb8595f"
+			(at 318.77 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Memory Card Connectors Micro SD, Push Push, SMT, Card Entry Normal, 1.28 mm profile"
+			(at 281.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.48"
+			(at 318.77 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "640-MEM2080-0012800A"
+			(at 318.77 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/MEM2080-00-128-00-A?qs=vvQtp7zwQdPJXzpf1SnYug%3D%3D"
+			(at 318.77 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 318.77 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MEM2080-00-128-00-A"
+			(at 318.77 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "48307250-95ae-4c46-9eb9-f0705cfc3572")
+		)
+		(pin "6"
+			(uuid "5241d904-6415-4287-96cf-d04e5bfc0191")
+		)
+		(pin "7"
+			(uuid "34ff9aa8-7d78-4f39-b51b-f1de0184fbf1")
+		)
+		(pin "MP1"
+			(uuid "8f0bae11-91e6-49b2-b56c-aea70ed8de15")
+		)
+		(pin "MP3"
+			(uuid "ecc255b4-4299-4b22-9924-d0585afb9ef5")
+		)
+		(pin "MP2"
+			(uuid "f611c527-6c0a-46ac-b802-330495848096")
+		)
+		(pin "DSW1"
+			(uuid "a00ee725-67bc-4bc8-b49b-3398eaf62a42")
+		)
+		(pin "8"
+			(uuid "909b802d-d254-477e-b266-d8f9a9386e1d")
+		)
+		(pin "1"
+			(uuid "42395b37-18c1-4b2f-9222-4d9df0239a6b")
+		)
+		(pin "3"
+			(uuid "7d75ab55-431d-44f6-8084-7abcedca6259")
+		)
+		(pin "DSW2"
+			(uuid "dc0058c0-95c5-4df6-ac2e-bac343eae3ff")
+		)
+		(pin "MP4"
+			(uuid "c3929e79-e2cd-4916-ae7d-5a0d607822f5")
+		)
+		(pin "2"
+			(uuid "d805ffe9-6ad0-4f2b-a4ae-5aa6618cc7b3")
+		)
+		(pin "5"
+			(uuid "d007eca7-74a7-440a-afc5-5a7c77195591")
+		)
+		(instances
+			(project ""
+				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 31.75 113.03 0)
 		(unit 1)
@@ -26069,95 +26263,6 @@
 			(project "FULL BOARD"
 				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
 					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card")
-		(at 306.07 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b24e1a1-cb27-47d6-aa72-5dd8a99e5680")
-		(property "Reference" "J2"
-			(at 306.705 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Micro_SD_Card"
-			(at 306.705 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
-			(at 335.28 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
-			(at 306.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Micro SD Card Socket"
-			(at 306.07 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c22655b3-3522-4583-969f-107c85024bc1")
-		)
-		(pin "2"
-			(uuid "a63943f8-def8-4e05-9b62-9cb2aaff92c8")
-		)
-		(pin "9"
-			(uuid "c3e4ab92-d1c7-41b8-8380-3efd3553cca0")
-		)
-		(pin "8"
-			(uuid "a5ecabae-d272-480c-8e8a-848de3c15bf8")
-		)
-		(pin "5"
-			(uuid "51a7342a-c04e-4d66-af09-96b97a01e36c")
-		)
-		(pin "1"
-			(uuid "75eb5a90-681b-4a49-92b7-354e0bd60398")
-		)
-		(pin "4"
-			(uuid "e5d2a4dd-2684-4107-b80e-e496dac06559")
-		)
-		(pin "6"
-			(uuid "d780f4d2-9d4c-426f-bf25-e86cae4743c6")
-		)
-		(pin "7"
-			(uuid "4b7c4b48-1cba-4fbc-88b7-1016c253174f")
-		)
-		(instances
-			(project ""
-				(path "/df550598-5349-47af-a3f3-2a2a958bedd4"
-					(reference "J2")
 					(unit 1)
 				)
 			)
