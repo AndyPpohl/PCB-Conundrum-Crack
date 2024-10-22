@@ -18101,7 +18101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "push button custom:SW4_PTS645SK50SMTR92LFS_CNK"
+		(property "Footprint" "Reset Switch:SW_PTS645SK50SMTR92LFS"
 			(at 34.29 142.24 0)
 			(effects
 				(font
