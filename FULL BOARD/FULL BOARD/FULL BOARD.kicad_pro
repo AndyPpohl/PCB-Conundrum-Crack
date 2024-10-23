@@ -497,7 +497,7 @@
       "plot": "Gerber2/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../Chassis Design/FULL BOARD.step",
       "svg": "",
       "vrml": ""
     },
